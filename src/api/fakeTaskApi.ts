@@ -7,7 +7,7 @@ const ARTIFICIAL_DELAY_MS = 200;
  * Flip this to true to simulate the persistence layer rejecting writes.
  * Useful for verifying error-handling paths in the UI.
  */
-export const SIMULATE_FAILURE = false;
+export const SIMULATE_FAILURE = false
 
 function delay<T>(value: T): Promise<T> {
   return new Promise((resolve) => {
